@@ -426,8 +426,8 @@ print(np.sin(x))
 import numpy as np
   
 # using numpy.core.fromrecords() method
-gfg = np.core.records.fromrecords([(101, 'Jitender', 21),
-                                    (102, 'Deepak', 20)], 
+gfg = np.core.records.fromrecords([(101, 'jayden', 21),
+                                    (102, 'mustafa', 20)], 
                             names = 'Rollno, Name, Age')
   
 print(gfg.Age)
